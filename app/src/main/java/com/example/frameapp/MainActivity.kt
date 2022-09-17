@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.view.Window
 import android.widget.Button
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     private val permissions = arrayOf( android.Manifest.permission.WRITE_EXTERNAL_STORAGE,android.Manifest.permission.READ_EXTERNAL_STORAGE)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+
         setContentView(R.layout.activity_main)
 
         checkPermission()
