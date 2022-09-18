@@ -1,6 +1,5 @@
 package com.example.frameapp
 
-import android.graphics.drawable.DrawableContainer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,7 +15,7 @@ class EditorActivity : AppCompatActivity(),OnClick  {
     private lateinit var recyclerView: RecyclerView
     private lateinit var list:MutableList<FrameList>
 
-    private val drw= arrayOf(R.drawable.frame_1,R.drawable.frame_2,R.drawable.frame_3,R.drawable.frame_4,R.drawable.frame_5,R.drawable.frame_6,R.drawable.frame_7,R.drawable.frame_8,R.drawable.frame_8)
+    private val drw= arrayOf(R.drawable.frame_1,R.drawable.frame_2,R.drawable.frame_3,R.drawable.frame_4,R.drawable.frame_5,R.drawable.frame_6,R.drawable.frame_7,)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
