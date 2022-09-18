@@ -16,7 +16,7 @@ class EditorActivity : AppCompatActivity(),OnClick  {
     private lateinit var recyclerView: RecyclerView
     private lateinit var list:MutableList<FrameList>
 
-    private val drw= arrayOf(R.drawable.frame_0,R.drawable.frame_1,R.drawable.frame_2,R.drawable.frame_3,R.drawable.frame_4,R.drawable.frame_5,R.drawable.frame_6,R.drawable.frame_7,R.drawable.frame_8,R.drawable.frame_9,R.drawable.frame_11,R.drawable.frame_12,R.drawable.frame_13,R.drawable.frame_14)
+    private val drw= arrayOf(R.drawable.frame_1,R.drawable.frame_2,R.drawable.frame_3,R.drawable.frame_4,R.drawable.frame_5,R.drawable.frame_6,R.drawable.frame_7,R.drawable.frame_8,R.drawable.frame_8)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
